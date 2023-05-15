@@ -1,0 +1,57 @@
+       /* * {
+            background-color: papayawhip;
+        } */
+        .Titulo {
+            /* background-color: #9be5aa; */
+            background-color: var(--hospital-green);
+            text-align: center;
+            color: var(--hospital-green);
+        }
+        .Titulo2 {
+            text-align: center;
+        }
+        .Titulo3 {
+            text-align: center;
+        }
+        .picas {
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+            margin-bottom: 0%;
+        }
+        .item {
+            width: 85px;
+            height: 30px;
+            
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            border-top: 1px solid rgba(255, 255, 255,0.3); 
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            border: 1px solid #d9d9d9;
+            
+        }
+        .container2 {
+            display: flex;
+            justify-content: center;
+            margin: 0%;
+        }
+        .salida {
+            margin: 20px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+        .boton {
+            cursor: pointer;
+            border-radius: 8px;
+            border: none;
+            background-color: #9be5aa;
+            color: white;
+        }
+     
