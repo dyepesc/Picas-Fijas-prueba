@@ -23,6 +23,8 @@ const btn1 = document.querySelector('#btnenter'); //crea la variable btn utiliza
 const btn2 = document.querySelector('#btnreset');
 const form1 = document.querySelector('#form1');
 const form2 = document.querySelector('#form2');
+//const resultado = document.querySelector('.container2');
+const resultado = document.querySelector('.container2'); // se crea la variable resultado para guardar el contenido de la clase container2 inactive de HTML
 
 //************************************************************************************************* */
 
@@ -34,6 +36,7 @@ btn1.addEventListener('click', darclick);
 function darclick() {
   
   const a = document.getElementById("picas3") // lo que escribo en el primer cuadro de texto se almacena en a
+  resultado.classList.replace('inactive', 'block'); //reemplaza el contenido de la clase .inactive que se encuentra en css por block.
   const b = document.getElementById("mostrar") // se crea var b para mostrar en cuadro de texto "mostrar"
   const c = Array.from(String(picas3.value), Number); // el numero escrito en picsa3 se convierte a un array de nombre c
   b.innerHTML += c; // escribe el array c en b
